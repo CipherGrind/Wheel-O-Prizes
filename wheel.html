@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ======= My CSS Files ======= -->
+    <link href="/prizewheel/wheel.css" rel="stylesheet" />
+    <link href="/prizewheel/spin.css" rel="stylesheet" />
+
+    <!-- ======= Bootstrap CSS ======= -->
+	<link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" 
+	    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" rel="stylesheet" />
+	
+
+    <!-- ======= JQUERY ======= -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- ======= Page Title ======= -->
+    <title>Prize Wheel</title>
+
+</head>
+
+
+<body>
+
+    <div class="container-fluid m-0 p-0" id="mainbody">
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="pb-3 pt-3 m-0 text-center top-banner">
+                    <span class="game-show-title">!! WHEEL-O-PRIZES !!</span>
+                </div>
+            </div>
+
+            <div class="row d-flex">
+                <div class="pt-3 pb-3 m-0 text-center d-flex flex-wrap justify-content-center prizeSection">
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <label for="enterPrize1" class="m-2">Prize 1:</label>
+                        <input type="text" id="enterPrize1" name="enterPrize1" value="Enter Prize 1" class="m-2 prize-input">
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <label for="enterPrize2" class="m-2">Prize 2:</label>
+                        <input type="text" id="enterPrize2" name="enterPrize2" value="Enter Prize 2" class="m-2 prize-input">
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <label for="enterPrize3" class="m-2">Prize 3:</label>
+                        <input type="text" id="enterPrize3" name="enterPrize3" value="Enter Prize 3" class="m-2 prize-input">
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <label for="enterPrize4" class="m-2">Prize 4:</label>
+                        <input type="text" id="enterPrize4" name="enterPrize4" value="Enter Prize 4" class="m-2 prize-input">
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <label for="enterPrize5" class="m-2">Prize 5:</label>
+                        <input type="text" id="enterPrize5" name="enterPrize5" value="Enter Prize 5" class="m-2 prize-input">
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <label for="enterPrize6" class="m-2">Prize 6:</label>
+                        <input type="text" id="enterPrize6" name="enterPrize6" value="Enter Prize 6" class="m-2 prize-input">
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <label for="enterPrize7" class="m-2">Prize 7:</label>
+                        <input type="text" id="enterPrize7" name="enterPrize7" value="Enter Prize 7" class="m-2 prize-input">
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <label for="enterPrize8" class="m-2">Prize 8:</label>
+                        <input type="text" id="enterPrize8" name="enterPrize8" value="Enter Prize 8" class="m-2 prize-input">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="pt-2 pb-2 m-0 text-center buttonSection">
+                    <button class="m-3" id="save-btn">SAVE</button>
+
+                    <button class="m-3" id="spin-btn">SPIN</button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="pt-2 m-0 text-center">
+                    <span class="downArrow">▼</span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="m-0 pt-3 pb-3 text-center d-flex justify-content-center spinSection">
+                    <div class="p-0 m-0" id="pizza">
+                        <div id="pizzaslice1">
+                            <div id="slicetxt1">PRIZE1</div>
+                        </div>
+                        <div id="pizzaslice2">
+                            <div id="slicetxt2">PRIZE2</div>
+                        </div>
+                        <div id="pizzaslice3">
+                            <div id="slicetxt3">PRIZE3</div>
+                        </div>
+                        <div id="pizzaslice4">
+                            <div id="slicetxt4">PRIZE4</div>
+                        </div>
+                        <div id="pizzaslice5">
+                            <div id="slicetxt5">PRIZE5</div>
+                        </div>
+                        <div id="pizzaslice6">
+                            <div id="slicetxt6">PRIZE6</div>
+                        </div>
+                        <div id="pizzaslice7">
+                            <div id="slicetxt7">PRIZE7</div>
+                        </div>
+                        <div id="pizzaslice8">
+                            <div id="slicetxt8">PRIZE8</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="m-0 p-3 buttonSection"></div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+  <script src="/prizewheel/wheel99.js"></script>
+
+</body>
+</html>
